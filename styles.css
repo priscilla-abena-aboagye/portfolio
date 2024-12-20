@@ -1,17 +1,45 @@
 * {
     box-sizing: border-box;
-}
-
-body {
-    
+    margin: 0;
+    padding: 0;
 }
 
 #navbar {
     display: flex;
     position: fixed;
-    padding-top: 10px;
+    top: 0;
     gap: 350px;
-    background-color: azure;
+    padding-top: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+#welcome-section {
+    padding-top: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+#About, .project-title {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+} 
+#coffee_beans {
+    width: 30%;
+    height: 30%;
 }
 
 
