@@ -36,22 +36,18 @@ header {
 } 
 
 #projects {
-    display: flex;
-    justify-content: space-around;
-}
-.project_image {
-    flex: 100px;
-    align-items: center;
-    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
 }
 #contact {
     text-align: center;
     padding: 40px 20px;
 }
 .picture {
-    width: 90%;
+    width: 80%;
     height: 90%;
-    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
 }
 
 #contact h2 {
@@ -83,5 +79,8 @@ header {
        flex-wrap: wrap;
        gap: 20px;
        justify-content: center;
+    }
+    #projects {
+        grid-template-columns: 1fr;
     }
 }
