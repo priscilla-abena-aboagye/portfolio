@@ -3,13 +3,16 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-color: rgb(230, 186, 105);
+}
 #navbar {
     display: flex;
     position: fixed;
     top: 0;
     gap: 50px;
     padding: 10px 20px;
+    left: 70%;
 }
 
 .nav-link {
@@ -40,7 +43,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
 }
-#contact {
+#contact, .project-title {
     text-align: center;
     padding: 40px 20px;
 }
